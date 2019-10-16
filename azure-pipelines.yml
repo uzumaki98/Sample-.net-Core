@@ -40,7 +40,7 @@ steps:
     zipAfterPublish: True
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Visual Studio Subscription'
+    azureSubscription: '6813eb13-ce35-4a80-b9a5-ab94fed7d85f'
     appType: webAppLinux
     appName: 'MySample_Application'
     package: $(System.ArtifactsDirectory)/**/*.zip
